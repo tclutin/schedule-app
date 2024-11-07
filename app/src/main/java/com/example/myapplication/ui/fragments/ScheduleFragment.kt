@@ -39,7 +39,6 @@ class ScheduleFragment(private val menuId: Int? = null) : Fragment() {
         } else {
             val weekSchedule = Schedule.getFlattenFormat(Schedule.getWeek())
             scheduleAdapter.updateScheduleItems(weekSchedule)
-            Log.d("1", "$weekSchedule")
         }
     }
 }
