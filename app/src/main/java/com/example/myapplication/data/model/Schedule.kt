@@ -35,7 +35,7 @@ object Schedule {
         ScheduleItem.DayItem(
             day = "Wednesday",
             lessons = listOf(
-                ScheduleItem.LessonItem("Отдых", "Отдых", "Отдых", "Отдых", "Отдых")
+                ScheduleItem.LessonItem("None", "Отдых", "None", "00:00", "00:00")
             )
         ),
         ScheduleItem.DayItem(
@@ -66,7 +66,7 @@ object Schedule {
         ScheduleItem.DayItem(
             day = "Sunday",
             lessons = listOf(
-                ScheduleItem.LessonItem("Отдых", "Отдых", "Отдых", "Отдых", "Отдых")
+                ScheduleItem.LessonItem("None", "Отдых", "None", "00:00", "00:00")
             )
         )
     )
